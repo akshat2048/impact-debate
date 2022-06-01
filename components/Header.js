@@ -11,7 +11,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Impact Debate</h1>
-                <p>The best debate camp based out of Wisconsin. Add in something else here lmao</p>
+                <p>The most successful debate camp based out of Wisconsin.</p>
             </div>
         </div>
         <nav>
@@ -19,7 +19,8 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Curriculum</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Schedule</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About Us</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Register</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="https://forms.gle/3rPG5E11dp4y974y8">Register</a></li>
             </ul>
         </nav>
     </header>
