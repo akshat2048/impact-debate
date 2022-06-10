@@ -37,7 +37,7 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+          <h2 className="major">Our Team</h2>
           <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
           <p>Impact Debate's Co-Founders Akshat Channashetti and Muthu Sundar are both rising seniors at Brookfield East High School. Having won numerous local tournaments since their freshman year, championing the WDCA State Tournament their sophomore year, and qualifying to Gold TOC with 5 bids their junior year, Brookfield East CS has a proven track record when it comes to public forum debate.</p>
           <hr></hr>

@@ -18,11 +18,12 @@ const Header = (props) => (
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Curriculum</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Schedule</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About Us</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Our Team</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
                 <li><a href="https://forms.gle/3rPG5E11dp4y974y8">Register</a></li>
             </ul>
         </nav>
+        
     </header>
 )
 
